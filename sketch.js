@@ -97,7 +97,9 @@ function keyPressed() {
 
   }
 }
-
+function touchStarted(){
+      dino.vel.y = -3;
+}
 function resetSketch() {
   dino = new Dino(spriteData, gameOver);
   groundX = 0;
