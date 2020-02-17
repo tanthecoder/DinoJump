@@ -1,0 +1,1 @@
+random framecount, create an obstacle adding into obstacles array, if(obstacles is bird){animation = birds array}
