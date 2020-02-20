@@ -19,7 +19,7 @@ function preload() {
 
 function setup() {
 
-  createCanvas(windowWidth, 120);
+  createCanvas(700, 120);
 
   resetSketch();
 
@@ -49,7 +49,8 @@ function setup() {
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, 120);
+  resizeCanvas(700, 120);
+
 }
 
 function draw() {
@@ -97,8 +98,9 @@ function keyPressed() {
 
   }
 }
-function touchStarted(){
-      dino.vel.y = -3;
+
+function touchStarted() {
+  dino.vel.y = -3;
 }
 
 function resetSketch() {
